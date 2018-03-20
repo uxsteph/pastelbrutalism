@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Martel|Vesper+Libre:900');
+
+body {
+	background-color: #FFF7DB;
+	margin: 0 0 0 5vw;
+	padding-bottom:60px;
+	height: 100%;
+}
+
+header {
+
+}
+
+a {
+	text-decoration: none;
+}
+
+a.Home:link, a.Home:visited {
+	color: #FFC6FF;
+	font-size: 3vw;
+}
+
+a.About:link, a.About:visited  {
+	color: #FFD09B;
+	font-size: 3vw;
+}
+
+a.Gallery:link, a.Gallery:visited  {
+	color: #FFE99B;
+	font-size: 3vw;
+}
+
+
+h1 {
+	font-family: Vesper Libre, serif;
+	font-size: 8vw;
+	text-align: left;
+	margin: 0 0 0 0vw;
+	max-height: 5vw;
+	
+}
+
+h2 {
+	margin-bottom: 20vw;
+}
+
+.Stephanie {
+	color: #B5DEFF;
+
+
+}
+
+.Marcela {
+	color: #FFC6FF;
+	
+
+}
+
+.Corrales {
+	color: #FFD09B;
+
+}
+
+.Ramirez {
+	color: #FFE99B;
+	margin-bottom: 5vw;
+}
+
+
+
+nav {
+	font-family: Martel, serif;
+	font-weight: bold;
+	transform: rotate(90deg);
+	transform-origin: right -20%;
+	float: right;
+	margin-top: 1.5vw;
+
+}
+
+.tlc_self {
+    max-width: 35vw;
+    height: auto;
+    border-radius: 2vw;
+    float: left;
+    margin-right: 5vw;
+    overflow: auto;
+}
+
+
+.pink {
+	width: 90%;
+    border-radius: 2vw;
+    margin-right: 5vw;
+    margin-bottom: 5vw;
+    
+}
+
+.img-container {
+    float: left;
+    width: 25%;
+    padding: 5vw;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+main {
+	font-family: Martel, serif;
+	font-size: 2vw;
+	margin-bottom: 18vw;
+	min-height: 100%;
+}
+
+p {
+	max-width: 70vw;
+}
+
